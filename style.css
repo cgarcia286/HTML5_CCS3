@@ -1,0 +1,17 @@
+/* Selector universal: Cambia el estilo de todos los elementos que se encuentran en el documento html (No recomendado)
+* {
+	color:red;
+}
+*/
+
+/*Selector de elemento: Toma la referencia de un elemento para cambiar su estilo*/
+h1 {
+	font-family: Arial, Helvetica, Sans-serif;
+	color: maroon;
+}
+
+/*Selector de Clase: */
+.article-header {
+	font-family: Arial, Sans-serif;
+}
+	

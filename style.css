@@ -19,3 +19,21 @@ h1 {
 .background-pink{
 	background-color: pink;
 }
+
+li[data-RobotOwner="Koji Kabuto"]{
+	background-color: pink;
+}
+
+input:focus{
+	background-color: red;
+}
+
+.toogle:checked ~ .checked {	/*Concepto de Sibling (hijos): Selecciona a los hermanos de la clase toogle y lo aplica a la clase .checked Nota: probar cambiar ~ por + y ver el resultado*/
+	background-color: olive;	/*Se selecciona los siblings de clase "checked" y se le aplica el estilo según las reglas del atributo de la clase checked del input*/
+}
+
+.checked {
+	width: 100px;
+	height: 100px;
+	background-color: peru;
+}

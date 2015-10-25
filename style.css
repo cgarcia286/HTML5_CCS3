@@ -10,8 +10,12 @@ h1 {
 	color: maroon;
 }
 
-/*Selector de Clase: */
+/*Selector de Clase: Toma en cuenta */
 .article-header {
-	font-family: Arial, Sans-serif;
+	font-family: Arial, Helvetica, Sans-serif;
+	color: green;
 }
-	
+
+.background-pink{
+	background-color: pink;
+}
